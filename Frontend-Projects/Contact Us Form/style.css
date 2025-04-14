@@ -1,0 +1,79 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body,html {
+  height: 100%;
+  width: 100%;
+  font-family: Arial, Helvetica, sans-serif;
+  background: linear-gradient(145deg, #1e1e2f, #2c2c4a);
+}
+.main {
+  margin: 5%;
+  margin-left: 35%;
+  margin-right: 38%;
+  padding: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-position: left;
+  background-size: contain;
+  color: white;
+  background-repeat: no-repeat;
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
+  border-radius: 20px;
+}
+h1 {
+  margin: 1px;
+  font-size: 48px;
+}
+div {
+  padding: 15px;
+}
+#txt {
+  width: 290px;
+  height: 40px;
+  background: rgba(255, 255, 255, 0.2);
+}
+#submit {
+  text-align: left;
+  padding: 25px;
+}
+button {
+  padding: 8px;
+  padding-left: 85px;
+  padding-right: 85px;
+  border-radius: 6px;
+  width: 310px;
+  background: linear-gradient(145deg, #6a5acd, #836fff);
+  color: white;
+}
+button:hover {
+  transform: scale(1.2);
+  transition-duration: 0.5s;
+  /* background-color: rgb(160, 151, 140); */
+  background: linear-gradient(145deg, #6a5acd, #836fff);
+}
+input {
+  padding: 6px;
+  border-radius: 5px;
+  letter-spacing: 2px;
+  border: transparent;
+  margin-top: 6px;
+}
+input[type="text"],
+input[type="email"] {
+  width: 290px;
+  background: rgba(255, 255, 255, 0.2);
+}
+label {
+  font-size: 15px;
+}
+input[type="text"]:hover,
+input[type="email"]:hover,
+#txt:hover {
+  background: #fff5e1;
+  transition: background 0.3s;
+}

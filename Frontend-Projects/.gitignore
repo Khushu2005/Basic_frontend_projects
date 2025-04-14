@@ -1,0 +1,21 @@
+# System files
+.DS_Store
+Thumbs.db
+
+# VS Code junk
+.vscode/
+
+# SCSS compiled maps
+*.map
+
+# Cache & temp files
+.cache/
+*.log
+*.tmp
+*.swp
+
+# Node modules (future use)
+node_modules/
+
+# Design notes / docs (optional ignore)
+**/design system.txt

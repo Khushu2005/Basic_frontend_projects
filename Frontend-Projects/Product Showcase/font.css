@@ -1,0 +1,157 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body,
+html {
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+  font-family: cursive;
+  background-color: aliceblue;
+}
+
+h1 {
+  text-align: center;
+  letter-spacing: 0.025em;
+  font-size: 3rem;
+  margin-right: 11rem;
+  padding-left: 2em;
+}
+
+#nav-bar p {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-right: 7.5rem;
+  padding-top: 0.8rem;
+  letter-spacing: 0.2rem;
+  font-size: 1.2em;
+}
+
+.container {
+  padding: 2em;
+  display: grid;
+  margin: 2.5rem;
+  grid-template-areas: "a b c j" "d e f k" "g h i l";
+  gap: 2em;
+}
+.container div {
+  border: 1.6px solid rgb(219, 213, 213);
+  border-radius: 1.5em;
+  padding: 1.2em;
+  margin: 0.5em;
+  overflow: hidden;
+}
+.container div img {
+  width: 100%;
+  height: auto;
+  aspect-ratio: 1/1;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+.container div h4 {
+  text-align: center;
+  margin-top: 0.4rem;
+  margin-bottom: 0.5rem;
+  color: rgb(26, 11, 49);
+}
+.container div p {
+  font-size: 14px;
+  text-align: center;
+  line-height: 1.5rem;
+}
+.container div #price {
+  margin-top: 0.5rem;
+  color: rgb(181, 58, 58);
+}
+.container .a {
+  grid-area: a;
+}
+.container .b {
+  grid-area: b;
+}
+.container .c {
+  grid-area: c;
+}
+.container .d {
+  grid-area: d;
+}
+.container .e {
+  grid-area: e;
+}
+.container .f {
+  grid-area: f;
+}
+.container .g {
+  grid-area: g;
+}
+.container .h {
+  grid-area: h;
+}
+.container .i {
+  grid-area: i;
+}
+
+@media (max-width: 850px) {
+  .container {
+    display: grid;
+    grid-template-areas: "a" "b" "c" "d" "e" "f" "g" "h" "i" "j" "k ";
+    gap: 0.3em;
+  }
+  h1 {
+    font-size: 2.03em;
+    text-align: center;
+    padding-top: 5%;
+    padding-left: 5em;
+    line-height: 1.5em;
+  }
+  #nav-bar p {
+    text-align: center;
+    padding-left: 7em;
+    font-size: 1em;
+  }
+  div {
+    padding: 0.6em;
+    margin: 0.3em;
+  }
+}
+@media (max-width: 714px) {
+  h1 {
+    font-size: 1.8em;
+    text-align: center;
+    padding-top: 4%;
+    padding-left: 22.3%;
+  }
+  #nav-bar p {
+    text-align: center;
+    padding-left: 6em;
+    font-size: 0.9em;
+  }
+  .container {
+    margin: 0.5rem;
+  }
+}
+@media (max-width: 650px) {
+  h1 {
+    font-size: 150%;
+  }
+  #nav-bar p {
+    font-size: 0.9em;
+    letter-spacing: 0.1rem;
+  }
+}
+@media (max-width: 587px) {
+  h1 {
+    font-size: 1em;
+    font-weight: 800;
+    padding-left: 24.5%;
+  }
+  #nav-bar p {
+    font-size: 0.8em;
+  }
+  .container {
+    margin: 0.8rem;
+  }
+}/*# sourceMappingURL=font.css.map */

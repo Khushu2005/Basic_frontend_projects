@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <title>Downloader</title>
+</head>
+
+<body class="display flex justify-center  items-center h-screen "
+    style="background: linear-gradient(135deg, #252525, #303030, #4c4c4c, #303030, #252525);">
+
+    <div class=" rounded-xs  w-145 h-75 mb-18  ">
+        <h1 class="text-white text-6xl -mt-17 mb-20 font-light tracking-wider ml-10">MP3-DOWNLOAD</h1>
+        <div
+            class=" w-[100%] display flex justify-between bg-[#202020] rounded-xl overflow-hidden h-25 shadow-4xl border-gray-600 z-9">
+            <div class=" rounded-xs overflow-hidden w- full   display flex justify-start   ">
+                <img class="object-fill w-[120px]"
+                    src="https://tse1.mm.bing.net/th?id=OIP.o4UcD-bQj1-Nfe5H99V7EQAAAA&pid=Api&P=0&h=180" alt="">
+                <div class="px-8 py-4">
+                    <h5 class="text-white text-[16px] font-light tracking-tight ">Ed Sheeran</h5>
+                    <h3 class="text-green-600 text-4xl tracking-normal ">Perfect</h3>
+                </div>
+
+            </div>
+            <img class="px-11 py-7 " src="spotify.png" alt="">
+        </div>
+        <div class="display flex justify-between my-7 ml-2 w-full ">
+            <div class="display flex-row w-full ">
+                <div id="download" class="progress w-97 h-5 bg-gray-300 rounded-full overflow-hidden ">
+                    <div id="col" class="color bg-green-600 w-0 h-full rounded-full"></div>
+                </div>
+                <div id="percent" class="percentage ml-89 mt-2 text-2xl text-white">0% </div>
+            </div>
+
+            <button
+                class="bg-green-700 text-white px-7 h-10 rounded-xl mx-5 text-xl tracking-tight font-normal shadow-lg ">Download</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
