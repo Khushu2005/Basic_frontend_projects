@@ -11,14 +11,9 @@ A collection of beginner to intermediate front-end projects built using HTML, CS
 | **Blog website**            | A clean and minimal blog layout using HTML & CSS.             |
 | **Bulb-on-off**             | Toggle a bulb on/off using simple JavaScript.                 |
 | **Contact Us Form**         | A responsive contact form with validation.                    |
-| **Custom-cursor**           | Custom animated cursor using JS and CSS.                      |
 | **Downloade-feature**       | Allows users to download media/files via button.              |
-| **github finder**           | GitHub profile finder using the GitHub REST API. 🆕           |
 | **Instagram-like-button**   | Heart animation like Instagram’s double-tap feature.          |
 | **IPL-Winner-predictor**    | Fun IPL match winner predictor using random logic.            |
-| **Photo Gallery**           | Responsive image grid gallery using HTML & CSS.               |
-| **Porfolio-using-Tailwindcss** | Personal portfolio built using Tailwind CSS.             |
-| **Product Showcase**        | Product cards using CSS Grid and Flexbox.                     |
 | **Random_color_generator**  | Generates random colors dynamically.                          |
 | **Two-col-layout**          | Simple responsive two-column layout using Flexbox.            |
 
